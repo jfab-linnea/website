@@ -3,7 +3,9 @@ export const Title = (props) => {
 
   return (
     <div className="text-center max-w-xl">
-      <div className="uppercase font-bold text-primary-500 mb-8">{label}</div>
+      <div className="uppercase font-bold text-primary-500 mb-8 text-sm">
+        {label}
+      </div>
       <h2 className="text-2xl mb-4">{value}</h2>
       <p className="">{description}</p>
     </div>
